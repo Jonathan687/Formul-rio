@@ -1,0 +1,120 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Primeiro Formulário</title>
+		<style type="text/css">
+			#contorno{
+				width: 65%;
+				background-color: #818181;
+				margin-left: 18%;
+			}
+			#form1{
+				width: 95%;
+				background-color: #90EE90;
+			}
+			#form2{
+				width: 95%;
+				background-color: #AED8E6;
+			}
+			#form3{
+				width: 95%;
+				background-color: #DBDE0D;
+			}
+			#data{
+				width: 417px;
+			}
+		</style>
+	</head>
+	<body>
+		<center>
+		<td>
+			<p>
+			<h2>Exercício 1 - formulário</h2>
+		</p>
+		</td>
+		</center>
+	<br>
+	<fieldset id="contorno">
+
+		<td>
+			<p>
+				<h3>Cadastro do<br> Usuário Pessoal</h3>
+			</p>
+		</td>
+		<form>
+			<fieldset id="form1">
+			<label for="nome">Nome:</label><br>
+			<input type="text" name="nome" size="55" maxlength="50" placeholder="Digite seu Nome">
+		</form>
+			<form>
+				<label for="email">Email:</label><br>
+		 		<input type="text" name="email" size="55" maxlength="50" placeholder="Ex. computador@gmail.com">
+		</form>
+			<form>
+				<label for="nasc">Data de Nascimento:</label><br>
+				<input type="date" name="nasc" id="data" min="1920-1-1" max="2025-12-31">
+		  	</form>
+		  	<form>
+		  		<label for="nome">Sexo:</label><br>
+		  		<input type="radio" name="sexo" value="Feminino">Feminino <br>
+		  		<input type="radio" name="sexo" value="Masculino">Masculino <br>
+		  	</form>
+			</fieldset>
+		<td>
+			<p>
+				<h3>Endereço</h3>
+			</p>
+		</td>
+		<form>
+			<fieldset id="form2">
+			<label for="adress">Endereço:</label><br>
+			<input type="adress" name=endereço size="55" maxlength="50" placeholder="Endereço">
+		</form>
+			<form>
+				<labal for="number">Número:</labal><br>
+				<input type="text" name=número size="55" maxlength="50" placeholder="Número">
+			</form>
+				<form>
+					<label for="CEP">CEP:</label><br>
+					<input type="CEP" name=CEP size="55" maxlength="50" placeholder="Ex. 00000-000">
+				</form>
+					<form>
+						<label for="neighborhood">Bairro:</label><br>
+						<input type="neighborhood" name="Bairro" size="55" maxlength="50" placeholder="Bairro">		
+					</form>
+	<form>
+		<label for="Cidade">Cidade:</label><br>
+			<select name="cidade">
+				<option value="Itanhaém">Itanhaém</option>
+				<option value="Praia Grande">Praia Grande</option>
+				<option value="Mongaguá">Mongaguá</option>
+				<option value="Santos">Santos</option>
+				<option value="São Vicente">São Vicente</option>
+			</select>
+			</fieldset>
+	</form>	
+		<td>
+			<p>
+				<h3>Interesses</h3>
+			</p>
+		</td>
+		<form>
+			<fieldset id="form3">
+					<label for="Marque quantas julgar necessário:">Marque quantas julgar necessário:</label><br>
+					<input type="checkbox" name="opções" value="Música"/>Música<br>
+					<input type="checkbox" name="opções" value="Filmes"/>Filmes<br>
+					<input type="checkbox" name="opções" value="Viagens"/>Viagens<br>
+					<input type="checkbox" name="opções" value="Moda"/>Moda<br>
+					<input type="checkbox" name="opções" value="Gastronomia"/>Gastronomia<br>
+					<input type="checkbox" name="opções" value="Tecnologia"/>Tecnologia<br>
+					<input type="checkbox" name="opções" value="Arte"/>Arte<br>
+					<input type="checkbox" name="opções" value="Literatura"/>Literatura<br>
+					<input type="checkbox" name="opções" value="Carros"/>Carros<br>
+					<input type="checkbox" name="opções" value="Motos"/>Motos<br>
+		</form>
+			</fieldset>
+	<br><input type="submit" name="Cadastrar" value="Cadastrar">		
+	</fieldset>
+	</body>
+
+	</html>
